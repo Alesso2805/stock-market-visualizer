@@ -129,7 +129,7 @@ import React, { useState, useEffect } from "react";
         return (
             <div style={{ width: "90%", maxWidth: "1500px", height: "500px", margin: "0 auto" }}>
                 <h2 style={{ textAlign: "left" }}>Stock Market Price Visualization</h2>
-                <div style={{ color: difference >= 0 ? 'green' : 'red', marginBottom: '20px', fontSize: '30px', fontWeight: 'bolder' }}>
+                <div style={{ color: difference >= 0 ? '#037b66' : '#d60a22', marginBottom: '20px', fontSize: '30px', fontWeight: 'bolder' }}>
                     {difference >= 0 ? '+' : ''}{difference} ({difference >= 0 ? '+' : ''}{percentageChange}%)
                 </div>
                 <div className={styles.buttonContainer}>
