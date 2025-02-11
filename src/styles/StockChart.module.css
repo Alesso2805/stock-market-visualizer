@@ -1,0 +1,29 @@
+.buttonContainer {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #ffffff;
+    border: none;
+    color: gray;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #d9ede9;
+    color: black;
+}
+
+.button.selected {
+    background-color: #d9ede9;
+    color: black;
+}
